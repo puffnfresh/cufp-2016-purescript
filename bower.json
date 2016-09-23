@@ -1,0 +1,16 @@
+{
+  "name": "cufp-2016-purescript",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-console": "^1.0.0",
+    "purescript-pux": "https://github.com/puffnfresh/purescript-pux.git#ef7e43b467a10269fe9c968d2cd22fe52f922607"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^1.0.0"
+  }
+}
