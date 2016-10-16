@@ -1,5 +1,6 @@
-exports.updateProgress = function(state) {
+exports.sizeBar = function(state) {
   return function() {
-    document.getElementById("progress").style.width = (100 * (state.score / state.high)) + '%';
+    document.getElementById('bar').style.width =
+      (state.current / state.high) * 100 + '%';
   };
 };
